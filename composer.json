@@ -1,0 +1,7 @@
+{
+    "name": "r8raihan/bot",
+    "description": "R8rAIHAN Bot for Render",
+    "require": {
+        "php": ">=7.4"
+    }
+}
