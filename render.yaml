@@ -1,7 +1,7 @@
 services:
   - type: web
     name: r8raihan-bot
-    env: php
+    env: php  # এখানে 'runtime' নয়, 'env' হবে
     plan: free
     buildCommand: composer install
     startCommand: php -S 0.0.0.0:$PORT index.php
